@@ -1,0 +1,23 @@
+application: agro-partner
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /
+  script: index.html
+  
+- url: /css
+  static_dir: css
+  
+- url: /images
+  static_dir: images
+  
+- url: /bower_components
+  static_dir: bower_components
+  
+- url: /js
+  static_dir: js
+  
+- url: /font
+  static_dir: font

@@ -1,0 +1,22 @@
+@mixin content-width {
+	margin: 0 auto;
+    max-width: $max-width;
+}
+
+@mixin section-header {
+	background-color: $gray-light;
+	color: $corporate;
+	font-size: $section-heading-size;
+    margin: 0 (- $gutter) $gutter (- $gutter);
+    padding: 0 $gutter;
+	padding-top: 2px;
+	text-transform: uppercase;
+}
+
+@mixin shadow {
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+@mixin invert {
+	-webkit-filter: invert(100%);
+}

@@ -1,0 +1,67 @@
+// Colors
+
+//$corporate : #C1001F;
+$corporate : #0971B2;
+$corporate-dark : darken( $corporate, 10% );
+$gray-dark : #666666;
+$gray-darker : #414042;
+$gray-light : #E5E5E5;
+
+// Typo
+
+$font-family-sans-serif : 'Open Sans', sans-serif;
+$small-text : 0.8rem;
+$section-heading-size : 1.2rem;
+$section-main-heading-size : 1.6rem;
+$section-secondary-heading-size : 1.2rem;
+$sidebar-main-heading-size : 1rem;
+$sidebar-secondary-heading-size : 0.8rem;
+
+// Animations
+
+$transition : 300ms ease-out;
+
+// Buttons
+
+$button-bg-color : $corporate;
+$button-bg-hover : $corporate-dark;
+$button-font-weight : bold;
+
+// Borders
+
+$border : $gray-light solid 1px; 
+
+// Layout
+$footer-height : 282px;
+$footer-small-height : 440px;
+$gutter : 15px;
+$column-gutter: $gutter * 2;
+$max-width : 80rem;
+$input-height : 2rem;
+
+// Orbit slider
+
+$orbit-nav-bg : $corporate;
+$orbit-nav-bg-hover: $corporate-dark;
+
+// Thumbnails
+
+$thumb-box-shadow-hover : 0 0 6px 1px rgba($corporate,0.5);
+
+// Top Bar
+
+$topbar-bg-color: white;
+$topbar-bg: $topbar-bg-color;
+$topbar-dropdown-bg: $gray-light;
+$topbar-dropdown-link-color: $gray-dark;
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-hover: $corporate;
+$topbar-link-color: $gray-darker;
+$topbar-link-font-size: 1.2rem;
+$topbar-menu-link-color: $gray-darker;
+$topbar-menu-icon-color: $gray-darker;
+
+// Sub Nav
+
+$sub-nav-font-color: white;
+$sub-nav-font-size: $small-text;

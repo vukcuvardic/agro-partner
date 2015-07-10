@@ -1,0 +1,138 @@
+.header.sticky {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	
+	.top-bar {
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	
+	.logo {max-width: 4rem}
+	
+	.top-bar--search, .top-bar--icon-group {display: none !important}
+}
+
+.logo {
+    max-width: 4rem;
+	margin-left: $gutter;
+    margin-top: -2px;
+}
+
+.menu-icon {padding-top: 1.2rem}
+
+.nav--main {float: right}
+
+.sub-nav {
+	background-color: $corporate;
+	margin: 0;
+	margin-bottom: $gutter;
+	padding-top: 0;
+	width: 100%;
+	
+	ul {
+		display: inline-block;
+		margin: 0 auto;
+		max-width: $max-width;
+		padding: 0;
+	}
+	
+	li {
+	display: inline;
+	
+	a {padding:0}
+	}
+}
+
+.sub-nav--container {
+	@include content-width;
+	padding-top: 5px;
+}
+
+.top-bar--icon-group {
+	@extend .hide-for-small-only;
+	float: left;
+	margin-bottom: $gutter;
+	margin-right: $gutter * 2;
+	a:hover {
+		@include invert;
+	}
+}
+
+.top-bar-section {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.top-bar--search {
+	@extend .hide-for-small-only;
+	float: left;
+	a {
+		float: left;
+		padding: 0.3rem 0.6rem;
+		width: 40%;
+	}
+	input {
+		float: left;
+		width: 60%;
+	}
+}
+
+.top-bar {
+	ul {max-width: $max-width}
+	ul li a {
+		font-family: oblikbold;
+		text-transform: uppercase
+	}
+	
+	.toggle-topbar.menu-icon {margin-top: -12px}
+}
+
+@media #{$large-up} {.logo {max-width: 14rem;}}
+
+@media #{$medium-only} {
+	.header.sticky .nav--main {clear: none}
+	
+	.logo {max-width: 8rem;}
+	
+	.nav--main {clear: both;}
+}
+
+@media #{$medium-up} {
+	ul.center-buttons {
+        display: inline-block;
+    }
+	
+	.contain-to-grid .top-bar {
+		margin-bottom: $gutter;
+		margin-top: $gutter;
+		padding: 0 $gutter;
+	}
+	
+	.header.sticky {
+		@include shadow;
+		transition: all 0.4s ease;
+	}
+	
+	.logo {
+        float: left;
+		margin-left: 0;
+		margin-right: $gutter;
+		margin-top: 0;
+		position: initial;
+    }
+	
+	.top-bar--icon-group, .top-bar--search {float: right}
+
+}
+
+@media #{$small-only} {
+	.contain-to-grid .top-bar {
+		@include shadow;
+		margin-bottom: $gutter;
+	}
+	
+	.top-bar-section {top:3px}
+}

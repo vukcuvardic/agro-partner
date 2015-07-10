@@ -1,0 +1,7 @@
+select {
+    border-color: $corporate;
+	font-size: $small-text;
+	height: calc(#{$input-height} - 4px) ;
+	padding: 0;
+	padding-left: 0.5em
+}

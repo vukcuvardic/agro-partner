@@ -1,0 +1,16 @@
+section {
+	@extend .row;
+	display: inline-block;
+    margin: $gutter;
+    padding: $gutter 0;
+	max-width: calc(100% - (#{$gutter} * 2));
+	
+	.section--container {
+		@include shadow;box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+		display: inline-block;
+		margin: $gutter;
+		padding: $gutter 0;
+	}
+}
+
+  

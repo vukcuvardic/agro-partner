@@ -1,0 +1,54 @@
+.default-image {margin: $gutter 0 0 0}
+
+.single-product {
+	.description p:last-of-type {margin-bottom: $gutter}
+	.producer {
+		position: absolute;
+		right: $gutter;
+		top: 0;
+	}
+	.section--container>div {@extend .large-6}
+} 
+
+.single-product--images {
+	margin-bottom: $gutter * 2;
+	margin-top: $gutter;
+	text-align: center;
+	li {max-width: calc(100% / 4 - (30px / 4))}
+	li:last-of-type {margin-right: 0}
+	.default-image {margin-bottom: 10px}
+	.row {padding:	$gutter #{$gutter / 2}}
+}
+
+.similar-product {
+	@extend .small-3;
+	@extend	.columns;
+	padding-right: 0;
+}
+
+.similar-products {
+	padding-bottom: 0;
+	padding-left: $gutter * 2;
+	width: 100% !important;
+	a:hover * {color: $corporate-dark}
+	h4 {@include section-header}
+	h5, h6 {font-family: oblik}
+	h5 {
+		color: $corporate;
+		font-size: 1rem;
+		margin-bottom: 0;
+		text-transform: uppercase;
+	};
+	h6 {
+		font-size: 0.8rem;
+		margin: 0
+	};
+	.row {padding-right: $gutter;}
+}
+
+@media #{$large-up} {
+	.default-image,
+	.single-product--images	{
+		margin-top: 0
+	}
+}

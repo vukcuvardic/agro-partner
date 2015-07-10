@@ -1,0 +1,17 @@
+table {
+	margin: $gutter * 2 0;
+	width: 100%;
+	border: transparent;
+	border-bottom: $border;
+	cell-spacing: 0px;
+	td {
+		border: transparent;
+		border-top: $border;
+		color: $gray-dark;
+		font-size: $small-text !important;
+		font-weight: 300;
+		width: 50%;
+	}
+}
+
+table tr.even, table tr.alt, table tr:nth-of-type(even) {background: transparent;}

@@ -1,0 +1,73 @@
+aside {
+    @extend .medium-4;
+    @extend .columns;
+    @extend .show-for-medium-up;
+	
+	h2 {@include section-header}
+	
+	h3 {
+		color: $corporate;
+		font-size: $sidebar-main-heading-size;
+		margin-bottom: 0;
+		margin-top: 0;
+		text-transform: uppercase;
+	}
+	
+	h4 {
+		font-size: $sidebar-secondary-heading-size;
+		margin-bottom: 0px;
+		margin-top: 0;
+	}
+	
+	section {
+		display: block;
+		margin: 0 -$gutter;
+		padding: 0
+	}
+	
+	.description {margin-top: 0}
+	
+	.section--container {
+		padding-top: 0;
+		width: calc(100% - (#{$gutter} * 2))
+	}
+	
+	.sidebar--blog-latest--image {
+		@extend .small-4;
+		@extend .columns;
+	}
+	
+	.sidebar--blog-latest {
+		ul {list-style-type: none}
+		.sidebar--description {margin-bottom: 2rem}
+		.row {position: relative}
+	}
+	
+	.sidebar--single-product {
+		@extend .row;
+		margin-bottom: $gutter / 2 !important;
+	}
+	
+	.sidebar--single-product:last-of-type {
+		margin-bottom: 0 !important;
+	}
+	
+	.sidebar--single-product--image {
+		@extend .small-4;
+		@extend .columns;
+	}
+	
+	.sidebar--top-products .description {@extend .medium-offset-4}
+	
+	.sidebar--top-products .description p {
+		color:$gray-darker;
+		padding-right: $gutter; 
+	}
+	
+	.sidebar--top-products .description p:last-of-type {margin-bottom:0}
+	
+	.sidebar--top-products h3, .sidebar--top-products h4 {
+		@extend .medium-offset-4;
+		margin-top: 0;
+	}
+}
