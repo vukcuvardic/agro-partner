@@ -1,6 +1,6 @@
 <!-- Breadcrumbs -->
 <nav class="breadcrumbs">
-  <a href="#">Početna</a>
+  <a href="index.php">Početna</a>
   <a href="#">Proizvodi</a>
   <a href="#">Grupa proizvoda</a>
   <a class="current" href="#">Proizvod</a>

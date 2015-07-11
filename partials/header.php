@@ -27,7 +27,7 @@
 							<input type="text" placeholder="">
 							<a href="#" class="button">Pretraži</a>
 						</div>
-						<!-- Social Media Follow Links -->
+						<!-- Social Follow Us Links -->
 						<div class="top-bar--icon-group">
 							<a href="#"><img src="images/icons/googleplus.png" alt="Google+"></a>
 							<a href="#"><img src="images/icons/linkedin.png" alt="LinkedIn"></a>
@@ -41,7 +41,7 @@
 							<li><a href="#">O nama</a></li>
 							<li><a href="#">Blog</a></li>
 							<li><a href="#">Linkovi</a></li>
-							<li><a href="#">Kontakt</a></li>
+							<li><a href="contact.php">Kontakt</a></li>
 							<!-- Search For Small Devices -->
 							<li class="show-for-small-only"><a href="#">Pretraga</a></li>
 						</ul>

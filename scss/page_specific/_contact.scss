@@ -1,0 +1,26 @@
+.contact {
+	h3 {
+		font-family: 'Open Sans',sans-serif;
+		font-size: 1rem
+	}
+	h3 span {
+		font-size: $section-heading-size;
+		font-weight: bold
+	}
+	p {font-size: $small-text}
+	textarea {min-height: 5rem}
+	#contact--mailing-list {
+		position: relative;
+		top: 0.25em;
+	}
+	#map {width: 100%}
+	.adress {margin-top: $gutter * 2}
+	.button--send {margin-bottom: 0}
+	.section--container>.columns {@extend .large-6}
+}
+
+@media #{$large-up} {
+	.contact {
+		.adress {margin-top: 0}
+	}
+}

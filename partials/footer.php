@@ -50,5 +50,12 @@
 		<script src="bower_components/jquery/dist/jquery.min.js"></script>
 		<script src="bower_components/foundation/js/foundation.min.js"></script>
 		<script src="js/app.js"></script>
+		<!--
+		<script src="http://files.keyes.ie/things/baseliner/baseliner-latest.min.js"></script>
+		<script>
+		window.onload = function() {
+			baseliner = new Baseliner();
+		}
+		</script>-->
 	</body>
 </html>

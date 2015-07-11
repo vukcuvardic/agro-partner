@@ -20,7 +20,7 @@ $(window).scroll(function() {
 	else {
 		var stickyHeight = 0;
 	}
-	console.log(stickyHeight);
+	//console.log(stickyHeight);
 	if ($(this).scrollTop() > stickyHeight){  
 		$('.header').addClass("sticky");
 		$('.main-container').css("margin-top", stickyHeight);
@@ -30,4 +30,12 @@ $(window).scroll(function() {
 		$('.main-container').css("margin-top", 0);
 	  }
 
+});
+
+/* Contact Page - Map height to fill rest of available space */
+$(document).ready(function() {
+	var adressHeight = $(".adress").outerHeight();
+	var parentHeight = $(".contact>.section--container>.columns").outerHeight();
+	var mapHeight = parentHeight - adressHeight - 8;
+	$("#map").css( "height", mapHeight );
 });
