@@ -8,7 +8,7 @@ $(document).foundation({
   }
 });
 
-/* Sticky Header */
+// Sticky Header
 $(window).scroll(function() {
 	var topBarHeight = $(".top-bar-section").outerHeight();
 	var subNavHeight = $(".sub-nav").outerHeight();
@@ -32,7 +32,8 @@ $(window).scroll(function() {
 
 });
 
-/* Contact Page - Map height to fill rest of available space */
+// Contact Page - Map height to fill rest of available space
+
 $(document).ready(function() {
 	var adressHeight = $(".adress").outerHeight();
 	var parentHeight = $(".contact>.section--container>.columns").outerHeight();

@@ -2,6 +2,7 @@ button, .button {
 	font-size: 0.8rem;
 	margin-bottom: $gutter;
 	padding: 0.3rem 1rem;
+	height: $gutter * 2;
 }
 
 .button--back, .button--next {

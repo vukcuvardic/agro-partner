@@ -5,7 +5,7 @@
             <h2 class="visible-for-small-only">Najpopularniji proizvodi</h2>
             <div class="row">
                 <div class="top-products--image">
-                    <img src="http://placehold.it/350x350" alt="Product picture" />
+                    <img src="http://placehold.it/240x240" alt="Product picture" />
                 </div>
                 <div class="top-products--details">
                     <h3>Naziv proizvoda</h3>

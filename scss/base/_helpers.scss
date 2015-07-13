@@ -8,6 +8,7 @@
 	color: $corporate;
 	font-size: $section-heading-size;
     margin: 0 (- $gutter) $gutter (- $gutter);
+	min-height: $gutter * 2;
     padding: 0 $gutter;
 	padding-top: 2px;
 	text-transform: uppercase;

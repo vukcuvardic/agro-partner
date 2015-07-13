@@ -2,7 +2,8 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"] {
 	font-size: $small-text;
-	height: calc(#{$input-height} - 4px) ;
+	height: $input-height;
+	margin-bottom: $gutter;
 	padding: 0;
 	padding-left: 0.5em
 }
@@ -10,7 +11,8 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 select {
     border-color: $gray-light;
 	font-size: $small-text;
-	height: calc(#{$input-height} - 4px) ;
+	height: $input-height;
+	margin-bottom: $gutter;
 	padding: 0;
 	padding-left: 0.5em
 }

@@ -58,13 +58,16 @@
 	h3 {
 		font-size: $section-main-heading-size;
 		color: $corporate;
+		line-height: $gutter * 2;
 		margin: 0;
+		margin-top: $gutter / 2;
 		text-transform: uppercase;
 	}
 	
 	h4 {
 		font-size: 1.2rem;
 		color: $gray-dark;
+		line-height: $gutter * 2;
 		margin: 0;
 	}
 	
@@ -77,6 +80,8 @@
 		left: 0;
 		position: absolute;
 	}
+	
+	.description {margin-top: $gutter / 2}
 	
 	.row {position: relative}
 	

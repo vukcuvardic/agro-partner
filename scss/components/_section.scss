@@ -2,7 +2,7 @@ section {
 	@extend .row;
 	display: inline-block;
     margin: $gutter;
-    padding: $gutter 0;
+    //padding: $gutter 0;
 	max-width: calc(100% - (#{$gutter} * 2));
 	
 	.section--container {

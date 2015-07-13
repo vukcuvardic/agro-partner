@@ -6,7 +6,7 @@ canvas {max-width: 100%}
 	border: none;
 	border-radius: 0;
 	a {color: $corporate};
-	margin: $gutter 0 (-(#{$gutter / 2})) 0;
+	margin-top: $gutter;
 }
 
 .description {

@@ -29,15 +29,15 @@
 			<input type="email" placeholder="Subject" />
 			<textarea placeholder="Message"></textarea>
 			<label for="contact--mailing-list">Prijavi me na mailing listu &nbsp;&nbsp;<input id="contact--mailing-list" type="checkbox"></label>
-			<input class="button button--send small large-12" type="submit" value="Send Message" />
+			<input class="button button--send large-12" type="submit" value="Send Message" />
 		</div>
 		<div class="columns" data-equalizer-watch>
 			<div class="adress">
 				<h2>Adresa</h2>
 				<h3><span>Agropartner</span></h3>
 				<h3>Mikole Kočiša 32</br>
-				21000 Novi Sad<br>
-				Srbija</h3>
+					21000 Novi Sad<br>
+					Srbija</h3>
 				<h3>Telefon: +381(0)21 66 10 643<br>
 				Tel/faks: +381(0)21 425 408</h3>
 			</div>

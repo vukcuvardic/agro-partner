@@ -27,6 +27,8 @@ aside {
 	
 	.description {margin-top: 0}
 	
+	.filter .section--container {padding-bottom: 0}
+	
 	.section--container {
 		padding-top: 0;
 		width: calc(100% - (#{$gutter} * 2))

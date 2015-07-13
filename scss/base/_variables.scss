@@ -37,7 +37,7 @@ $footer-small-height : 440px;
 $gutter : 15px;
 $column-gutter: $gutter * 2;
 $max-width : 80rem;
-$input-height : 2rem;
+$input-height : $gutter * 2;
 
 // Orbit slider
 
