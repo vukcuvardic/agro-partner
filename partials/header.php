@@ -11,7 +11,7 @@
 	<body>
 		<div class="wrapper">
 			<!-- Header -->
-			<div class="header contain-to-grid">
+			<div class="header">
 				<nav class="top-bar" data-topbar>
 					<!-- Mobile Menu Button -->
 					<ul class="title-area">
@@ -19,26 +19,25 @@
 					</ul>
 					<!-- Website Logo -->
 					<div class="logo">
-						<a href="index.php"><img src="images/agropartner-logo.png" /></a>
+						<a href="index.php"><img data-interchange="[images/logo/agropartner_logo_small.png, (small)], [images/logo/agropartner_logo_medium.png, (medium)], [images/logo/agropartner_logo_large.png, (large)]" alt="Product picture"></a>
 					</div>
 					<section class="top-bar-section">
 						<!-- Search -->
-						<div class="top-bar--search">
+						<div class="top-bar__search">
 							<input type="text" placeholder="">
 							<a href="#" class="button">Pretraži</a>
 						</div>
 						<!-- Social Follow Us Links -->
-						<div class="top-bar--icon-group">
+						<div class="top-bar__icon-group">
 							<a href="#"><img src="images/icons/googleplus.png" alt="Google+"></a>
 							<a href="#"><img src="images/icons/linkedin.png" alt="LinkedIn"></a>
 							<a href="#"><img src="images/icons/facebook.png" alt="Facebook"></a>
 							<a href="#"><img src="images/icons/youtube.png" alt="Youtube"></a>
 						</div>
 						<!-- Main Navigation -->
-						<ul class="nav--main">
+						<ul class="nav__main">
 							<li><a href="index.php">Početna</a></li>
 							<li><a href="single-product.php">Proizvodi</a></li>
-							<li><a href="#">O nama</a></li>
 							<li><a href="#">Blog</a></li>
 							<li><a href="#">Linkovi</a></li>
 							<li><a href="contact.php">Kontakt</a></li>
@@ -49,8 +48,8 @@
 				</nav>
 			</div>
 			<!-- Sub Navigation -->
-			<nav class="sub-nav hide-for-small-only">
-				<div class="sub-nav--container">
+			<nav class="sub-nav">
+				<div class="sub-nav__container">
 					<ul>
 						<li><a href="#">Izabrani Proizvod 1</a></li>
 						<li><a href="#">Sledeći Proizvod</a></li>

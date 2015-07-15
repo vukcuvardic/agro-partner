@@ -1,2 +1,17 @@
 /* Getting viewer on top of sticky menu */
 .clearing-blackout {z-index: 999}
+
+.clearing-thumbs_enlarged {
+	li {display: none}
+	
+	li.active {
+		display: initial;
+		margin-bottom: 10px;
+		margin-right: 0;
+		max-width: 100%;
+		
+		a:hover {cursor:zoom-in;}
+	}
+}
+
+.clearing-thumbs_links:hover {cursor: pointer}

@@ -25,7 +25,7 @@ footer {
 		color: gray;
 	}
 	
-	.footer--container {
+	.footer__container {
 		@include content-width;
 		padding: $gutter 0;
 	}
@@ -34,47 +34,33 @@ footer {
 		max-width: 250px;
 	}
 	
-	.footer--container>div {@extend .medium-6}
+	.footer__container>div {@extend .medium-6}
 	
-	.footer--copyright {
+	.footer__copyright {
 		font-size: $small-text;
 		margin-top: $gutter;
 		text-align: center;
 	}
 	
-	.footer--heading {
+	.footer__heading {
 		font-size: 1.2em;
 		font-weight: bold;
 		margin: $gutter 0 $gutter/2 0;
 	}
 	
-	.footer--icon {float: left}
+	.footer__icon {float: left}
 	
-	.footer--icon-group a {
+	.footer__icon-group a {
 		margin-right: $gutter
 	}
 	
-	.footer--icon-group a:hover {
+	.footer__icon-group a:hover {
 		@include invert;
 	}
 	
-	.footer--icon-group a:last-child {margin-right: 0}
+	.footer__icon-group a:last-child {margin-right: 0}
 	
-	.footer--text {margin-bottom: $gutter}
-}
-
-@media #{$small-only} {
-	footer {
-		text-align: center;
-		height: $footer-small-height;
-		
-		.footer--icon-group-contact {
-			width:112px;
-			margin:0 auto;
-		}
-		
-		.mailing-list{margin: 0 auto}
-	}
+	.footer__text {margin-bottom: $gutter}
 }
 
 #SkypeButton_Call_agropartner1_1 {
@@ -86,4 +72,18 @@ footer {
 	}
 	
 	p {margin-bottom: 0;}
+}
+
+@media #{$small-only} {
+	footer {
+		text-align: center;
+		height: $footer-small-height;
+		
+		.footer__icon-group_contact {
+			width:112px;
+			margin:0 auto;
+		}
+		
+		.mailing-list{margin: 0 auto}
+	}
 }

@@ -3,13 +3,16 @@ table {
 	width: 100%;
 	border: transparent;
 	border-bottom: $border;
-	cell-spacing: 0px;
+	border-collapse: separate;
+    border-spacing: 0;
+    
 	td {
 		border: transparent;
 		border-top: $border;
 		color: $gray-dark;
 		font-size: $small-text !important;
 		font-weight: 300;
+		padding: 0;
 		width: 50%;
 	}
 }

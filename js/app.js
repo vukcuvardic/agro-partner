@@ -36,7 +36,17 @@ $(window).scroll(function() {
 
 $(document).ready(function() {
 	var adressHeight = $(".adress").outerHeight();
-	var parentHeight = $(".contact>.section--container>.columns").outerHeight();
+	var parentHeight = $(".contact>.row>.columns").outerHeight();
 	var mapHeight = parentHeight - adressHeight - 8;
 	$("#map").css( "height", mapHeight );
+});
+
+// Product page thumbnails enlargement
+
+$(document).ready(function() {
+	$('.clearing-thumbs_links li').bind('click', function(){
+		var thumbIndex = ( $('.clearing-thumbs_links li').index(this) );
+		$('.clearing-thumbs_enlarged li.active').removeClass('active');
+		$('.clearing-thumbs_enlarged li:eq('+thumbIndex+')').addClass('active');
+	});
 });

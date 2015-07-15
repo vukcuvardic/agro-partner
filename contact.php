@@ -1,6 +1,6 @@
 <?php include '/partials/header.php'; ?>
 <!-- Main Container -->
-<div class="row main-container">
+<div class="main-container">
 	<!-- Main Content -->
 	<main>
 		<?php include '/partials/contact.php'; ?> 

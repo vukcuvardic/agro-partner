@@ -63,18 +63,5 @@ ul li {
 	html {
 		font-size: 80%;
 	}
-	.top-bar-section ul li>a {
-	font-size: 0.825em
-	}
 }
 
-@media #{$medium-only} {
-	.header.sticky .top-bar-section ul li>a {
-		font-size: 0.825em
-	}
-	.top-bar-section ul li>a {
-		padding: 0 0.55rem!important;
-	}
-}
-
-@media #{$large-up} {.top-bar-section ul li>a {font-size: 1.2em}}

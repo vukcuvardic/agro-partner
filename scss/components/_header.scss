@@ -1,3 +1,5 @@
+.header {@extend .contain-to-grid}
+
 .header.sticky {
 	position: fixed;
 	top: 0;
@@ -11,7 +13,7 @@
 	
 	.logo {max-width: 4rem}
 	
-	.top-bar--search, .top-bar--icon-group {display: none !important}
+	.top-bar__search, .top-bar__icon-group {display: none !important}
 }
 
 .logo {
@@ -22,9 +24,13 @@
 
 .menu-icon {padding-top: 1.2rem}
 
-.nav--main {float: right}
+.nav__main {
+	clear: right;
+	float: right
+}
 
 .sub-nav {
+	@extend .hide-for-small-only;
 	background-color: $corporate;
 	margin: 0;
 	margin-bottom: $gutter;
@@ -45,12 +51,12 @@
 	}
 }
 
-.sub-nav--container {
+.sub-nav__container {
 	@include content-width;
 	padding-top: 5px;
 }
 
-.top-bar--icon-group {
+.top-bar__icon-group {
 	@extend .hide-for-small-only;
 	float: left;
 	margin-bottom: $gutter;
@@ -61,12 +67,13 @@
 }
 
 .top-bar-section {
+	box-shadow: none;
 	display: block;
 	margin: 0;
 	padding: 0;
 }
 
-.top-bar--search {
+.top-bar__search {
 	@extend .hide-for-small-only;
 	float: left;
 	a {
@@ -82,6 +89,7 @@
 
 .top-bar {
 	ul {max-width: $max-width}
+	
 	ul li a {
 		font-family: oblikbold;
 		text-transform: uppercase
@@ -90,22 +98,28 @@
 	.toggle-topbar.menu-icon {margin-top: -12px}
 }
 
-@media #{$large-up} {.logo {max-width: 14rem;}}
+@media #{$large-up} {
+	.logo {max-width: 14rem}
+
+	.top-bar-section ul li>a {font-size: 1.2em}
+}
 
 @media #{$medium-only} {
-	.header.sticky .nav--main {clear: none}
+	.header.sticky .top-bar-section ul li>a {font-size: 0.825em}
+	
+	.header.sticky .nav__main {clear: none}
 	
 	.logo {max-width: 8rem;}
 	
-	.nav--main {clear: both;}
+	.nav__main {clear: both;}
+	
+	.top-bar-section ul li>a {padding: 0 0.55rem!important;}
 }
 
 @media #{$medium-up} {
-	ul.center-buttons {
-        display: inline-block;
-    }
+	ul.center-buttons {display: inline-block}
 	
-	.contain-to-grid .top-bar {
+	.header .top-bar {
 		margin-bottom: $gutter;
 		margin-top: $gutter;
 		padding: 0 $gutter;
@@ -124,15 +138,17 @@
 		position: initial;
     }
 	
-	.top-bar--icon-group, .top-bar--search {float: right}
+	.top-bar__icon-group, .top-bar__search {float: right}
 
 }
 
 @media #{$small-only} {
-	.contain-to-grid .top-bar {
+	.header .top-bar {
 		@include shadow;
 		margin-bottom: $gutter;
 	}
 	
 	.top-bar-section {top:3px}
+	
+	.top-bar-section ul li>a {font-size: 0.825em}
 }

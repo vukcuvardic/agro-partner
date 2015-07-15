@@ -5,34 +5,14 @@ button, .button {
 	height: $gutter * 2;
 }
 
-.button--back, .button--next {
-    width: $input-height;
-    height: $input-height;
-    border-radius: 5rem;
-    padding: 0.4rem 0;
-    margin-bottom: 0;
-}
-
-.button--read-more {
+.button_read-more {
 	margin-bottom: 0;
     margin-right: $gutter;
 }
 
-.button--submit {
+.button_send {@extend .button}
+
+.button_submit {
     margin-bottom: 0;
     width:100% !important;
 }
-
-// Slider
-
-.orbit-container .orbit-prev, .orbit-container .orbit-next {
-	bottom: 0;
-	top: initial;
-	width: 2rem;
-	height: 2rem;
-	border-radius: 5rem;
-	padding: 0.4rem 0;
-	@extend .small-offset-4;
-}
-
-.orbit-container .orbit-next {left: 2.5rem}
