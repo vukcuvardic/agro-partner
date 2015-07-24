@@ -1,17 +1,15 @@
 section {
-	@include shadow;
-	@extend .row;
-	display: inline-block;
+    @include shadow;
+    @extend .row;
+    display: inline-block;
     margin: $gutter 0 0 0;
-	max-width: calc(100% - (#{$gutter} * 2));
-	padding: $gutter;
+    max-width: calc(100% - (#{$gutter} * 2));
+    padding: $gutter;
 }
 
 section>.row {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-.main-container section {
-	margin: $gutter 0;
-}
+.main-container section {margin: $gutter 0}

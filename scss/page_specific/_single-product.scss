@@ -1,71 +1,71 @@
 .default-image {margin: $gutter 0 0 0}
 
 .single-product {
-	
-	.description p:last-of-type {margin-bottom: $gutter}
-	
-	.producer {
-		@extend .show-for-large-up;
-		position: absolute;
-		right: $gutter;
-		top: 0;
-	}
+    margin-bottom: 0!important;
+    .description p:last-of-type {margin-bottom: $gutter}
+
+    .producer {
+        @extend .show-for-large-up;
+        position: absolute;
+        right: $gutter;
+        top: 0;
+    }
 } 
 
 .single-product__details>.columns {@extend .large-6}
 
 .single-product__images {
-	margin-bottom: $gutter * 2;
-	margin-top: $gutter;
-	text-align: center;
-	
-	li {max-width: calc(100% / 4 - (30px / 4))}
-	
-	li:last-of-type {margin-right: 0}
-	
-	.default-image {margin-bottom: 10px}
-	
-	.row {padding:	$gutter #{$gutter / 2}}
+    margin-bottom: $gutter * 2;
+    margin-top: $gutter;
+    text-align: center;
+
+    li {max-width: calc(100% / 4 - (30px / 4))}
+
+    li:last-of-type {margin-right: 0}
+
+    .default-image {margin-bottom: 10px}
+
+    .row {padding:	$gutter #{$gutter / 2}}
 }
 
 .single-product .similar-products>.row>.similar-product {
-	@extend .small-3;
-	@extend .medium-3;
-	@extend .large-3;
-	@extend	.columns;
-	padding-right: 0;
+    @extend .small-3;
+    @extend .medium-3;
+    @extend .large-3;
+    @extend	.columns;
+    padding-right: 0;
 }
 
 .similar-products {
-	box-shadow: none;
-	margin-bottom: 0 !important;
-	padding-bottom: 0;
-	width: 100% !important;
-	
-	a:hover * {color: $corporate-dark}
-	
-	h4 {@include section-header}
-	
-	h5, h6 {font-family: oblikbold}
-	
-	h5 {
-		color: $corporate;
-		font-size: 1rem;
-		margin-bottom: 0;
-		text-transform: uppercase;
-	}
-	
-	h6 {
-		font-size: 0.8rem;
-		margin: 0
-	}
-	
-	.row {padding-right: $gutter;}
+    box-shadow: none;
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+    width: 100% !important;
+
+    a:hover * {color: $corporate-dark}
+
+    h4 {@include section-header}
+
+    h5, h6 {font-family: oblikbold}
+
+    h5 {
+        color: $corporate;
+        font-size: 1rem;
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+
+    h6 {
+        font-size: 0.8rem;
+        margin: 0
+    }
+
+    .row {padding-right: $gutter;}
 }
 
 @media #{$large-up} {
-	.default-image,
-	.single-product__images	{
-		margin-top: 0
-	}
+    .default-image,
+    .single-product__images	{
+        margin-top: 0
+    }
 }

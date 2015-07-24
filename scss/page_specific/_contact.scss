@@ -1,39 +1,42 @@
 .contact {
-	h3 {
-		font-family: 'Open Sans',sans-serif;
-		font-size: 1rem
-	}
-	
-	h3 span {
-		font-size: $section-heading-size;
-		font-weight: bold
-	}
-	
-	p {font-size: $small-text}
-	
-	textarea {min-height: 5rem}
-	
-	#contact__mailing-list {
-		position: relative;
-		top: 0.25em;
-	}
-	
-	#map {width: 100%}
-	
-	.about {margin-top: $gutter * 2}
-	
-	.adress {margin-top: $gutter * 2}
-	
-	.button_send {
-		margin-bottom: 0;
-		width:100%
-	}
-	
-	.columns {@extend .large-6}
+    margin-bottom: 0!important;
+
+    h3 {
+        font-family: 'Open Sans',sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    h3 span {
+        font-size: $section-heading-size;
+        font-weight: bold
+    }
+
+    p {font-size: $small-text}
+
+    textarea {min-height: 5rem}
+
+    #contact__mailing-list {
+        position: relative;
+        top: 0.25em;
+    }
+
+    #map {width: 100%}
+
+    .about {margin-top: $gutter * 2}
+
+    .adress {margin-top: $gutter * 2}
+
+    .button_send {
+        margin-bottom: 0;
+        width:100%
+    }
+
+    .columns {@extend .large-6}
 }
 
 @media #{$large-up} {
-	.contact {
-		.adress {margin-top: 0}
-	}
+    .contact {
+        .adress {margin-top: 0}
+    }
 }

@@ -1,18 +1,18 @@
 .filter {
-	padding: 0 inherit;
-	
-	h2 {@include section-header}
-	
-	.row {
-		padding: 0 $gutter 0 $gutter;
-	}
-	
-	.row > div  {
-		float: left;
-		width: calc(50% - (#{$gutter} / 2));
-	}
+    padding: 0 inherit;
 
-	.row > div:nth-child(even) {
-		float: right;
-	}
+    h2 {@include section-header}
+
+    .row {
+        padding: 0 $gutter 0 $gutter;
+    }
+
+    .row > div  {
+        float: left;
+        width: calc(50% - (#{$gutter} / 2));
+    }
+
+    .row > div:nth-child(even) {
+        float: right;
+    }
 }
