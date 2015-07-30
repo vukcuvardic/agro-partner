@@ -81,8 +81,9 @@
         padding: 0.3rem 0.6rem;
         width: 40%;
     }
-    input {
+    input[type="text"] {
         float: left;
+        height: 1.75rem;
         width: 60%;
     }
 }

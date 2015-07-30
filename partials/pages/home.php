@@ -46,13 +46,13 @@
                 <p>Sed ac tellus a elit aliquam mollis. Morbi laoreet scelerisque leo, eu cursus orci dapibus at.</p>
             </div>
         </div>
-        <button class="button_read-more">Opširnije</button>
+        <a class="button button_read-more" href="single-product.php">Opširnije</a>
     </div>
 
 </section>
 <!-- Latest Blog Posts -->
-<div class="blog-latest" data-equalizer>
-    <section data-equalizer-watch>
+<div class="blog-latest">
+    <section>
         <h2>Naslov poslednjeg bloga</h2>
         <div class="row">
             <div class="blog-latest__image">
@@ -62,18 +62,18 @@
                 <p>Izvod poslednjeg blog posta. Tekst koji je dugačak par rečenica.</p>
             </div>
         </div>
-        <button class="button_read-more">Opširnije</button>
+        <a class="button button_read-more" href="single-blog-post.php">Opširnije</a>
     </section>
-    <section data-equalizer-watch>
+    <section>
         <h2>Drugi najsvežiji blog</h2>
         <div class="row">
             <div class="blog-latest__image">
                 <img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/280x280, (medium)], [http://placehold.it/135x135, (large)]" alt="Latest product image">
             </div>
             <div class="description">
-                <p>Pretposlednji blog post - izvod. Tekst koji je dugačak par rečenica. Nalupan tekst za svrhe ilustracije. Dodaću još jednu rečenicu za svaki kako bi text bio duži</p>
+                <p>Pretposlednji blog post - izvod. Tekst koji je dugačak par rečenica. Nalupan tekst za svrhe ilustracije.</p>
             </div>
         </div>
-        <button class="button_read-more">Opširnije</button>
+        <a class="button button_read-more" href="single-blog-post.php">Opširnije</a>
     </section>
 </div>

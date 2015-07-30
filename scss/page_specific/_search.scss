@@ -1,0 +1,28 @@
+.search {
+    li {
+        &:not(:last-of-type)  {
+            margin-bottom: $gutter;
+        }
+        
+        span {
+            display: block;
+            font-size: 80%;
+            font-style: italic;
+            &:before { content: '\A'; }
+        }
+    }
+    
+    ul {
+        @extend .clearfix;
+        @extend .no-bullet;
+        
+        margin-bottom: 0;
+    }
+    
+    .button_search, 
+    .input_search {float: left}
+    
+    .button_search {width: 30%}
+    
+    .input_search {width: 70%}
+}

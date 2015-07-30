@@ -37,12 +37,12 @@
                         <!-- Main Navigation -->
                         <ul class="nav__main">
                             <li><a href="index.php">Početna</a></li>
-                            <li><a href="single-product.php">Proizvodi</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Linkovi</a></li>
+                            <li><a href="products.php">Proizvodi</a></li>
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="links.php">Linkovi</a></li>
                             <li><a href="contact.php">Kontakt</a></li>
                             <!-- Search For Small Devices -->
-                            <li class="show-for-small-only"><a href="#">Pretraga</a></li>
+                            <li class="show-for-small-only"><a href="search.php">Pretraga</a></li>
                         </ul>
                     </section>
                 </nav>

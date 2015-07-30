@@ -1,0 +1,11 @@
+.products {
+    h1 {margin-left: $gutter}
+}
+
+.product-series {
+    @extend .columns;
+    @extend .medium-4;
+    @extend .small-6;
+    
+    margin-top: $gutter;
+}

@@ -11,8 +11,13 @@
 @import "components/_section.scss";
 @import "components/_sidebar.scss";
 
+@import "page_specific/_blog.scss";
 @import "page_specific/_contact.scss";
 @import "page_specific/_home.scss";
+@import "page_specific/_links.scss";
+@import "page_specific/_products.scss";
+@import "page_specific/_search.scss";
+@import "page_specific/_single-blog-post.scss";
 @import "page_specific/_single-product.scss";
 
 @import "structures/_buttons.scss";

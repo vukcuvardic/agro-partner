@@ -6,6 +6,10 @@ $gray-dark : #666666;
 $gray-darker : #414042;
 $gray-light : #E5E5E5;
 
+// Roundness
+
+$global-radius: 0px;
+
 // Typo
 
 $font-family-sans-serif : 'Open Sans', sans-serif;
@@ -42,6 +46,12 @@ $input-height : $gutter * 2;
 
 $orbit-nav-bg : $corporate;
 $orbit-nav-bg-hover: $corporate-dark;
+
+
+// Pagination
+
+$pagination-link-current-background: $corporate;
+$pagination-link-current-active-bg: $corporate;
 
 // Thumbnails
 

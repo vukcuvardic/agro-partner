@@ -3,7 +3,7 @@
 <div class="main-container">
     <!-- Main Content -->
     <main>
-        <?php include '/partials/single-product.php'; ?> 
+        <?php include '/partials/pages/single-product.php'; ?> 
     </main>
     <!-- Sidebar -->
     <?php include '/partials/sidebar.php'; ?> 
