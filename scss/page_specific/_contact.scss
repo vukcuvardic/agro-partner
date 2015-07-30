@@ -1,5 +1,6 @@
 .contact {
     margin-bottom: 0!important;
+    //display: flex;
 
     h3 {
         font-family: 'Open Sans',sans-serif;
@@ -12,7 +13,11 @@
         font-weight: bold
     }
 
-    p {font-size: $small-text}
+    p {
+        font-size: $small-text;        
+        
+        &:last-of-type {margin-bottom: 0}
+    }
 
     textarea {min-height: 5rem}
 

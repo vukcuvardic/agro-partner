@@ -1,7 +1,7 @@
 <!-- Breadcrumbs -->
 <nav class="breadcrumbs">
     <a href="index.php">Početna</a>
-    <a href="#">Proizvodi</a>
+    <a href="products.php">Proizvodi</a>
     <a href="#">Kategorija proizvoda</a>
     <a href="#">Potkategorija proizvoda</a>
     <a class="current" href="#">Proizvod</a>

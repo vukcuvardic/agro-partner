@@ -1,7 +1,7 @@
 <!-- Breadcrumbs -->
 <nav class="breadcrumbs">
     <a href="index.php">Početna</a>
-    <a href="#">Blog</a>
+    <a href="blog.php">Blog</a>
     <a class="current" href="#">Blog Post</a>
 </nav>
 <!-- Single Product Main Content -->

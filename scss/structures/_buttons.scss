@@ -16,3 +16,5 @@ button, .button {
     margin-bottom: 0;
     width:100% !important;
 }
+
+@media #{$small-only} {button, .button {height: $gutter * 1.6}}

@@ -79,7 +79,12 @@ footer {
     footer {
         text-align: center;
         height: $footer-small-height;
-
+        
+        input[type="text"],
+        input[type="submit"] {height: $input-height * 0.8}
+        
+        .footer__copyright {margin-top: $gutter * 2}
+        
         .footer__icon-group_contact {
             width:112px;
             margin:0 auto;

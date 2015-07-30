@@ -17,4 +17,12 @@
 
         margin-bottom: 0;
     }
+    
+    .columns {
+        @extend .large-6;
+        
+        &:nth-child(2) {margin-top: $gutter}
+    }
 }
+
+@media #{$large-up} {.links {.columns {&:nth-child(2) {margin-top: 0}}}}

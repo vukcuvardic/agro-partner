@@ -25,4 +25,12 @@
     .button_search {width: 30%}
     
     .input_search {width: 70%}
+    
+    .pagination-centered {
+        
+        li {
+            margin-bottom: 0;
+            margin-top: $gutter * 2;
+        }
+    }
 }

@@ -12,6 +12,7 @@
     padding: 0 $gutter;
     padding-top: 0.25rem;
     text-transform: uppercase;
+    @media #{$small-only}{padding-top: 0.5rem;}
 }
 
 @mixin shadow {

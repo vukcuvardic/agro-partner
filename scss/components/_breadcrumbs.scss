@@ -1,1 +1,3 @@
 .breadcrumbs {margin-top: $gutter}
+
+@media #{$medium-only}{.breadcrumbs > a {line-height: 1.2rem}}

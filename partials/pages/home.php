@@ -48,7 +48,6 @@
         </div>
         <a class="button button_read-more" href="single-product.php">Opširnije</a>
     </div>
-
 </section>
 <!-- Latest Blog Posts -->
 <div class="blog-latest">

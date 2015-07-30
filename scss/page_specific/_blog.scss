@@ -1,19 +1,13 @@
 .blog {
     padding: $gutter;
-    
+
     h1 {margin-left: $gutter}
-    
+
     .blog-post {
         @extend .columns;
-        @extend .small-6;
-        
+        @extend .medium-6;
+
         margin-top: $gutter;
-        padding-right: $gutter;
-        padding-left: $gutter / 2;
-        &:first-of-type {
-            padding-left: $gutter;
-            padding-right: $gutter / 2;
-        }
     }
     .button {margin-top: $gutter / 2}
 }
@@ -24,14 +18,14 @@
     margin-top: $gutter * 2 !important;
     padding-bottom: 0;
     width: 100% !important;
-    
+
     h4 {@include section-header}
-    
+
     ul {
         @extend .no-bullet;
-        
+
         margin-bottom: 0;
-        
+
         li {
             float: left;
             margin-bottom: $gutter;
@@ -39,3 +33,4 @@
         }
     }
 }
+

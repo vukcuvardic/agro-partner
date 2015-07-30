@@ -6,7 +6,7 @@
 <!-- Single Product Main Content -->
 <section class="links">
     <div class="row">
-        <div class="large-6 columns">
+        <div class="columns">
             <h1>Reference</h1>
             <ul>
                 <li>ABC Food AD <span>Ruski Krstur</span></li>
@@ -14,7 +14,7 @@
                 <li>Koncern Farmakop DOO <span>Šabac</span></li>
             </ul>
         </div>
-        <div class="large-6 columns">
+        <div class="columns">
             <h1>Linkovi</h1>
             <ul>
                 <li><a href="http://www.amaspa.com/" target="_blank">AMA</a></li>

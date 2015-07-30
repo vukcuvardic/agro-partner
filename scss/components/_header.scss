@@ -20,6 +20,8 @@
     max-width: 4rem;
     margin-left: $gutter;
     margin-top: -2px;
+    position: relative!important;
+    z-index: 9999;
 }
 
 .menu-icon {padding-top: 1.2rem}
