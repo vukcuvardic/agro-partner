@@ -13,8 +13,6 @@ section > section {
     padding-bottom: 0;
     width: 100% !important;
 
-    a:hover * {color: $corporate-dark}
-
     h4 {@include section-header}
 
     h5, h6 {font-family: oblikbold}

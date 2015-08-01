@@ -1,10 +1,10 @@
 .blog-images {
     @extend .columns;
     @extend .large-6;
-}
-
-.blog-images {
+    @extend .large-pull-6;
+    
     margin-bottom: $gutter;
+    padding: 0;
     text-align: center;
 
     li {max-width: calc(100% / 4 - (30px / 4))}
@@ -20,12 +20,18 @@
 .blog-introduction {
     @extend .columns;
     @extend .large-6;
+    @extend .large-push-6;
 
     font-size: 120%;
     font-style: italic;
+    padding: 0;
+    text-align: justify;
 }
 
-.single-blog-post {padding: $gutter}
+.single-blog-post {
+    @extend section;
+    padding: $gutter
+}
 
 .single-blog-content {
     text-align: justify;
@@ -47,8 +53,6 @@
             margin: 0;
             text-align: center;
             width: 100%;
-
-            a:hover {cursor: zoom-in;}
         }
 
         p {
@@ -68,4 +72,10 @@
             margin: 0 0 $gutter ($gutter * 2);
         }
     }
+}
+
+@media #{$large-up} {
+    .blog-images {padding-right: $gutter / 2}
+    
+    .blog-introduction {padding-left: $gutter / 2}
 }

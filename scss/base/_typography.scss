@@ -12,11 +12,6 @@
 
 a {color: $corporate}
 
-a:hover * {
-    color: $corporate-dark;
-    transition: color $transition;
-}
-
 h1, h2, h3, h4 {
     font-family: oblikbold;
     font-style: normal;

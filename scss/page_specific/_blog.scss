@@ -1,23 +1,25 @@
 .blog {
     padding: $gutter;
-
-    h1 {margin-left: $gutter}
-
+    
+    h1 {padding-left: $gutter / 2};
+    
     .blog-post {
         @extend .columns;
-        @extend .medium-6;
-
-        margin-top: $gutter;
+        @extend .small-6;
+        
+        padding: 0 ($gutter / 2);
     }
+    
     .button {margin-top: $gutter / 2}
+    
+    .row {padding: 0 ($gutter / 2)}
 }
 
 .blog-list {
     box-shadow: none;
-    margin-bottom: -$gutter !important;
-    margin-top: $gutter * 2 !important;
+    margin: ($gutter * 2) (-$gutter / 2) (-$gutter) (-$gutter / 2)!important;
     padding-bottom: 0;
-    width: 100% !important;
+    width: calc(100% + 15px) !important;
 
     h4 {@include section-header}
 
@@ -29,7 +31,9 @@
         li {
             float: left;
             margin-bottom: $gutter;
-            width: calc(100% / 3);
+            margin-right: $gutter;
+            width: calc(100% / 3 - 10px);
+            &:nth-child(3n) {margin-right: 0}
         }
     }
 }

@@ -21,14 +21,16 @@
     margin-left: $gutter;
     margin-top: -2px;
     position: relative!important;
-    z-index: 9999;
+    z-index: 999;
 }
 
 .menu-icon {padding-top: 1.2rem}
 
 .nav__main {
     clear: right;
-    float: right
+    float: right;
+    
+    ul li {color: $gray-darker}
 }
 
 .sub-nav {
@@ -63,9 +65,6 @@
     float: left;
     margin-bottom: $gutter;
     margin-right: $gutter * 2;
-    a:hover {
-        @include invert;
-    }
 }
 
 .top-bar-section {

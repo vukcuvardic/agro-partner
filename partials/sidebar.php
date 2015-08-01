@@ -39,7 +39,7 @@
         <div class="sidebar__single-product">
             <a href="#">
                 <div class="sidebar__single-product__image">
-                    <img data-interchange="[http://placehold.it/72x72, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
+                    <img data-interchange="[http://placehold.it/100x100, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
                 </div>
                 <div class="sidebar__headings">
                     <h3>Naziv proizvoda</h3>
@@ -53,7 +53,7 @@
         <div class="sidebar__single-product">
             <a href="#">
                 <div class="sidebar__single-product__image">
-                    <img data-interchange="[http://placehold.it/72x72, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
+                    <img data-interchange="[http://placehold.it/100x100, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
                 </div>
                 <div class="sidebar__headings">
                     <h3>Naziv proizvoda</h3>
@@ -67,7 +67,7 @@
         <div class="sidebar__single-product">
             <a href="#">
                 <div class="sidebar__single-product__image">
-                    <img data-interchange="[http://placehold.it/72x72, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
+                    <img data-interchange="[http://placehold.it/100x100, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
                 </div>
                 <div class="sidebar__headings">
                     <h3>Naziv proizvoda</h3>
@@ -81,7 +81,7 @@
         <div class="sidebar__single-product">
             <a href="#">
                 <div class="sidebar__single-product__image">
-                    <img data-interchange="[http://placehold.it/72x72, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
+                    <img data-interchange="[http://placehold.it/100x100, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
                 </div>
                 <div class="sidebar__headings">
                     <h3>Naziv proizvoda</h3>
@@ -95,7 +95,7 @@
         <div class="sidebar__single-product">
             <a href="#">
                 <div class="sidebar__single-product__image">
-                    <img data-interchange="[http://placehold.it/72x72, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
+                    <img data-interchange="[http://placehold.it/100x100, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
                 </div>
                 <div class="sidebar__headings">
                     <h3>Naziv proizvoda</h3>
@@ -113,7 +113,7 @@
         <div class="sidebar__single-product">
             <a href="#">
                 <div class="sidebar__single-product__image">
-                    <img data-interchange="[http://placehold.it/72x72, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
+                    <img data-interchange="[http://placehold.it/100x100, (medium)], [http://placehold.it/100x100, (large)]" alt="Product picture">
                 </div>
                 <div class="sidebar__headings">
                     <h3>Naziv proizvoda</h3>

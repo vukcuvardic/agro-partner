@@ -1,0 +1,68 @@
+.no-touch {
+
+    /* Blog */
+
+    .blog img:hover {filter: blur(2px)}
+    
+    /* Buttons */
+    
+   
+
+    /* Contact */
+
+    .vcard {
+        .adr > span a:hover,
+            .organization-name:hover {color: $gray-dark};
+    }
+
+    /* Footer */
+
+    .footer {
+        input[type="submit"]:hover {
+            border: solid 1px gray;
+            color: gray;
+        }
+
+        .footer__icon-group a:hover {
+            @include invert;
+        }
+    }
+
+    /* Header */
+
+    .top-bar__icon-group a:hover {@include invert}
+    
+    .top-bar-section ul li {
+        background: none;
+        color: inherit;
+    }
+    
+    .top-bar-section ul li:hover:not(.has-form)>a {
+        background-color: $corporate;
+        color: white;
+    }
+    
+    /* Image Viewer */
+    
+    .clearing-thumbs_enlarged li.active a:hover {cursor:zoom-in;}
+    .clearing-thumbs_links:hover {cursor: pointer}
+    
+    /* Products */
+    .product-series img:hover {filter: blur(2px)}
+    
+    /* Section */
+
+    section > section a:hover * {color: $corporate-dark}
+    
+    /* Single Blog Post */
+    
+    .single-blog-content .clearing-thumbs li a:hover {cursor: zoom-in;}
+    
+    /* Typography */
+
+    a:hover * {
+        color: $corporate-dark;
+        transition: color $transition;
+    }
+
+}

@@ -21,11 +21,6 @@ footer {
         width:100%;
     }
 
-    input[type="submit"]:hover {
-        border: solid 1px gray;
-        color: gray;
-    }
-
     .footer__container {
         @include content-width;
         padding: $gutter 0;
@@ -53,10 +48,6 @@ footer {
 
     .footer__icon-group a {
         margin-right: $gutter
-    }
-
-    .footer__icon-group a:hover {
-        @include invert;
     }
 
     .footer__icon-group a:last-child {margin-right: 0}

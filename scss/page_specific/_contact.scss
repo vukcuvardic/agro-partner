@@ -1,23 +1,7 @@
 .contact {
     margin-bottom: 0!important;
-    //display: flex;
 
-    h3 {
-        font-family: 'Open Sans',sans-serif;
-        font-size: 1rem;
-        font-weight: normal;
-    }
-
-    h3 span {
-        font-size: $section-heading-size;
-        font-weight: bold
-    }
-
-    p {
-        font-size: $small-text;        
-        
-        &:last-of-type {margin-bottom: 0}
-    }
+    p {font-size: $small-text}
 
     textarea {min-height: 5rem}
 
@@ -28,20 +12,53 @@
 
     #map {width: 100%}
 
-    .about {margin-top: $gutter * 2}
-
-    .adress {margin-top: $gutter * 2}
-
+    .about {
+        margin-top: $gutter;
+        text-align: justify;
+        p:last-of-type {margin-bottom: 0}
+    }
+    
+    .adress {margin-top: $gutter;}
+    
     .button_send {
         margin-bottom: 0;
         width:100%
     }
 
-    .columns {@extend .large-6}
+    .columns {
+        @extend .large-6;
+
+        padding: 0 ($gutter / 2)
+    }
+
+    .row {padding: 0 ($gutter / 2)}
+}
+
+.vcard {
+    border: 0;
+    margin: ($gutter / 2) 0;
+    padding: 0;
+
+    .adr > span {
+        font-family: 'Open Sans',sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+
+    .organization-name {
+        @extend h3;
+        
+        color: $corporate;
+        font-size: $section-heading-size;
+        font-weight: bold;
+    }
+    
+    .street {
+        float: left;
+        &:after { content: "\00a0 "; }
+    }
 }
 
 @media #{$large-up} {
-    .contact {
-        .adress {margin-top: 0}
-    }
+    .contact .adress {margin-top: 0}
 }

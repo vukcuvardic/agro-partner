@@ -5,9 +5,15 @@
     <a class="current" href="#">Blog Post</a>
 </nav>
 <!-- Single Product Main Content -->
-<section class="single-blog-post">
+<article class="single-blog-post">
     <h1>Naziv Posta</h1>
     <div class="row">
+        <div class="blog-introduction">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet velit in libero cursus consequat. Nulla et pretium urna, id vestibulum velit. Vestibulum mollis convallis lacus, eget convallis leo laoreet vel. In turpis mauris, hendrerit vitae porta in, posuere nec quam.
+            </p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ullamcorper congue massa in scelerisque. Nunc condimentum luctus justo ac tincidunt. Morbi eu blandit diam.
+            </p>
+        </div>
         <div class="blog-images">
             <ul class="clearing-thumbs clearing-thumbs_enlarged" id="clearing-thumbs_enlarged" data-clearing>
                 <li class="active"><a href="http://placehold.it/400x400" data-clearing-interchange="[http://placehold.it/400x400, (small)], [http://placehold.it/600x600, (large)]"><img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/400x400, (medium)]" alt="Product picture"></a></li>
@@ -21,12 +27,6 @@
                 <li><img class="th" src="http://placehold.it/140x140"></li>
                 <li><img class="th" src="http://placehold.it/140x140"></li>
             </ul>
-        </div>
-        <div class="blog-introduction">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet velit in libero cursus consequat. Nulla et pretium urna, id vestibulum velit. Vestibulum mollis convallis lacus, eget convallis leo laoreet vel. In turpis mauris, hendrerit vitae porta in, posuere nec quam.
-            </p>
-            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ullamcorper congue massa in scelerisque. Nunc condimentum luctus justo ac tincidunt. Morbi eu blandit diam.
-            </p>
         </div>
     </div>
     <div class="single-blog-content">
@@ -55,4 +55,4 @@
             Aliquam suscipit ut risus sed sagittis. Duis vel lacinia elit, ac consequat velit. Praesent mattis erat quis nulla vulputate sollicitudin non ac sem. Vestibulum id porta leo, dignissim maximus magna. Quisque in fringilla leo. Etiam id purus scelerisque, ultricies ligula eu, vehicula nulla. Aenean ut risus posuere est luctus facilisis eu vitae velit. Nunc massa lacus, efficitur vel est at, pharetra tempus sem. Aenean eget tempus ex.
         </p>
     </div>
-</section><!-- End Single Blog Post Main Content -->
+</article><!-- End Single Blog Post Main Content -->

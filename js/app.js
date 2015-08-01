@@ -37,7 +37,7 @@ $(window).scroll(function() {
 $(document).ready(function() {
 	var adressHeight = $(".adress").outerHeight();
 	var parentHeight = $(".contact>.row>.columns").outerHeight();
-	var mapHeight = parentHeight - adressHeight - 8;
+	var mapHeight = parentHeight - adressHeight;
 	$("#map").css( "height", mapHeight );
 });
 

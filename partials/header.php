@@ -9,10 +9,12 @@
         <script src="bower_components/modernizr/modernizr.js"></script>
     </head>
     <body>
+        <h1 class="hidden">Agro-Partner</h1>
         <div class="wrapper">
             <!-- Header -->
             <div class="header">
                 <nav class="top-bar" data-topbar>
+                    <h2 class="hidden">Main Navigation</h2>
                     <!-- Mobile Menu Button -->
                     <ul class="title-area">
                         <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -21,7 +23,7 @@
                     <div class="logo">
                         <a href="index.php"><img data-interchange="[images/logo/agropartner_logo_small.png, (small)], [images/logo/agropartner_logo_medium.png, (medium)], [images/logo/agropartner_logo_large.png, (large)]" alt="Product picture"></a>
                     </div>
-                    <section class="top-bar-section">
+                    <div class="top-bar-section">
                         <!-- Search -->
                         <div class="top-bar__search">
                             <input type="text" placeholder="">
@@ -44,11 +46,12 @@
                             <!-- Search For Small Devices -->
                             <li class="show-for-small-only"><a href="search.php">Pretraga</a></li>
                         </ul>
-                    </section>
+                    </div>
                 </nav>
             </div>
             <!-- Sub Navigation -->
             <nav class="sub-nav">
+                <h2 class="hidden">Sub Navigation</h2>
                 <div class="sub-nav__container">
                     <ul>
                         <li><a href="#">Izabrani Proizvod 1</a></li>
