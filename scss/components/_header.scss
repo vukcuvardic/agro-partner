@@ -77,14 +77,16 @@
 .top-bar__search {
     @extend .hide-for-small-only;
     float: left;
-    a {
+    a.button {
         float: left;
+        font-size: 0.8rem;
+        height: $gutter * 2;
         padding: 0.3rem 0.6rem;
         width: 40%;
     }
     input[type="text"] {
         float: left;
-        height: 1.75rem;
+        height: $gutter * 2;
         width: 60%;
     }
 }
