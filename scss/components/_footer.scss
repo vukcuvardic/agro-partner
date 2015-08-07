@@ -6,7 +6,7 @@ footer {
     margin-top: $gutter * 2;
     max-width: 100%;
     height: $footer-height;
-
+    
     input[type="text"] {
         height: $input-height;
         margin-bottom: $gutter/2;
@@ -20,6 +20,8 @@ footer {
         height: $input-height;
         width:100%;
     }
+    
+    .email {float: left}
 
     .footer__container {
         @include content-width;

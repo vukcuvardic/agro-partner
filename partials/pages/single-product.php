@@ -44,16 +44,64 @@
             <div class="producer"><a class="button button--producer">Proizvođač</a></div>
             <div class="single-product__images">
                 <ul class="clearing-thumbs clearing-thumbs_enlarged" id="clearing-thumbs_enlarged" data-clearing>
-                    <li class="active"><a href="http://placehold.it/400x400" data-clearing-interchange="[http://placehold.it/400x400, (small)], [http://placehold.it/600x600, (large)]"><img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/400x400, (medium)]" alt="Product picture"></a></li>
-                    <li><a href="http://placehold.it/400x400" data-clearing-interchange="[http://placehold.it/400x400, (small)], [http://placehold.it/600x600, (large)]"><img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/500x500, (medium)]" alt="Product picture"></a></li>
-                    <li><a href="http://placehold.it/400x400" data-clearing-interchange="[http://placehold.it/400x400, (small)], [http://placehold.it/600x600, (large)]"><img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/600x600, (medium)]" alt="Product picture"></a></li>
-                    <li><a href="http://placehold.it/400x400" data-clearing-interchange="[http://placehold.it/400x400, (small)], [http://placehold.it/700x700, (large)]"><img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/400x400, (medium)]" alt="Product picture"></a></li>
+                    <li class="active">
+                        <a href="images/products/product-image-600.png" data-clearing-interchange="[images/products/product-image-400.png, (small)], [images/products/product-image-600.png, (large)], [images/products/product-image-1200.png, (largeretina)], [images/products/product-image-600.png, (mediumretina)]">
+                            <picture>
+                                <source media="(min-width: 1025px)" srcset="images/products/product-image-1200.png 2x, images/products/product-image-400.png" />
+                                <img class="th" src="images/products/product-image-600.png" alt="Product picture">
+                            </picture>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/products/product-image-600.png" data-clearing-interchange="[images/products/product-image-400.png, (small)], [images/products/product-image-600.png, (large)], [images/products/product-image-1200.png, (largeretina)]">
+                            <picture>
+                                <source media="(min-width: 1025px)" srcset="images/products/product-image-1200.png 2x, images/products/product-image-400.png" />
+                                <img class="th" src="images/products/product-image-600.png" alt="Product picture">
+                            </picture>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/products/product-image-600.png" data-clearing-interchange="[images/products/product-image-400.png, (small)], [images/products/product-image-600.png, (large)], [images/products/product-image-1200.png, (largeretina)]">
+                            <picture>
+                                <source media="(min-width: 1025px)" srcset="images/products/product-image-1200.png 2x, images/products/product-image-400.png" />
+                                <img class="th" src="images/products/product-image-600.png" alt="Product picture">
+                            </picture>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="images/products/product-image-600.png" data-clearing-interchange="[images/products/product-image-400.png, (small)], [images/products/product-image-600.png, (large)], [images/products/product-image-1200.png, (largeretina)]">
+                            <picture>
+                                <source media="(min-width: 1025px)" srcset="images/products/product-image-1200.png 2x, images/products/product-image-400.png, " />
+                                <img class="th" src="images/products/product-image-600.png" alt="Product picture">
+                            </picture>
+                        </a>
+                    </li>
                 </ul>
                 <ul class="clearing-thumbs clearing-thumbs_links">
-                    <li><img class="th" src="http://placehold.it/140x140"></li>
-                    <li><img class="th" src="http://placehold.it/140x140"></li>
-                    <li><img class="th" src="http://placehold.it/140x140"></li>
-                    <li><img class="th" src="http://placehold.it/140x140"></li>
+                    <li>
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-200.png 2x, images/products/product-image-100.png" />
+                        <img class="th" src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
+                    </li>
+                    <li>
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-200.png 2x, images/products/product-image-100.png" />
+                        <img class="th" src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
+                    </li>
+                    <li>
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-200.png 2x, images/products/product-image-100.png" />
+                        <img class="th" src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
+                    </li>
+                    <li>
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-200.png 2x, images/products/product-image-100.png" />
+                        <img class="th" src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
+                    </li>
                 </ul>
             </div>
             <!-- Graph -->
@@ -96,7 +144,7 @@
                 }
             </script>
         </div>
-        
+
     </div><!-- End row -->
     <div class="clearfix"></div>
     <!-- Similar Products -->
@@ -105,28 +153,40 @@
         <div class="row">
             <div class="similar-product">
                 <a href="#">
-                    <img data-interchange="[http://placehold.it/130x130, (small)], [http://placehold.it/200x200, (medium)], [http://placehold.it/200x200, (large)] " alt="Product picture">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-400.png 2x, images/products/product-image-200.png" />
+                        <img src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
                     <h5>Naziv proizvoda</h5>
                     <h6>Kratak opis</h6>
                 </a>
             </div>
             <div class="similar-product">
                 <a href="#">
-                    <img data-interchange="[http://placehold.it/130x130, (small)], [http://placehold.it/200x200, (medium)], [http://placehold.it/200x200, (large)] " alt="Product picture">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-400.png 2x, images/products/product-image-200.png" />
+                        <img src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
                     <h5>Naziv proizvoda</h5>
                     <h6>Kratak opis</h6>
                 </a>
             </div>
             <div class="similar-product">
                 <a href="#">
-                    <img data-interchange="[http://placehold.it/130x130, (small)], [http://placehold.it/200x200, (medium)], [http://placehold.it/200x200, (large)] " alt="Product picture">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-400.png 2x, images/products/product-image-200.png" />
+                        <img src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
                     <h5>Naziv proizvoda</h5>
                     <h6>Kratak opis</h6>
                 </a>
             </div>
             <div class="similar-product">
                 <a href="#">
-                    <img data-interchange="[http://placehold.it/130x130, (small)], [http://placehold.it/200x200, (medium)], [http://placehold.it/200x200, (large)] " alt="Product picture">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-400.png 2x, images/products/product-image-200.png" />
+                        <img src="images/products/product-image-150.png" alt="Product picture">
+                    </picture>
                     <h5>Naziv proizvoda</h5>
                     <h6>Kratak opis</h6>
                 </a>

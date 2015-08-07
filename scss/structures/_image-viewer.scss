@@ -1,5 +1,11 @@
 /* Getting viewer on top of sticky menu */
-.clearing-blackout {z-index: 999}
+.clearing-blackout {
+    z-index: 999;
+
+    .carousel {position: absolute; bottom: 0}
+}
+
+.clearing-close {z-index: 9999}
 
 .clearing-thumbs_enlarged {
     li {display: none}

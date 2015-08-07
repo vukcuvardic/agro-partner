@@ -103,8 +103,14 @@
 }
 
 @media #{$large-up} {
+    footer {padding: 0 ($gutter)}
+    
+    .header .top-bar {padding: 0 ($gutter * 2)!important}
+    
     .logo {max-width: 14rem}
-
+    
+    .sub-nav__container {padding-left: $gutter}
+    
     .top-bar-section ul li>a {font-size: 1.2em}
 }
 
@@ -121,6 +127,7 @@
 }
 
 @media #{$medium-up} {
+    
     ul.center-buttons {display: inline-block}
 
     .header .top-bar {
@@ -141,7 +148,7 @@
         margin-top: 0;
         position: initial;
     }
-
+    
     .top-bar__icon-group, .top-bar__search {float: right}
 
 }

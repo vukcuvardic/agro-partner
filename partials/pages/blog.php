@@ -9,19 +9,30 @@
         <h1>Blog</h1>
         <article class="blog-post">
             <a href="single-blog-post.php"><h2>Blog Post 1</h2>
-            <img data-interchange="[http://placehold.it/274x274, (small)], [http://placehold.it/300x300, (medium)], [http://placehold.it/400x400, (large)]" alt="Product picture"></a>
-            <div class="description">
-                <p>Izvod poslednjeg blog posta. Tekst koji je dugačak par rečenica.</p>
-            </div>
-            <a class="button button_read-more" href="single-blog-post.php">Opširnije</a>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/products/product-image-800.png 2x, images/products/product-image-400.png" />
+                    <source media="(min-width: 641px)" srcset="images/products/product-image-300.png" />
+                    <img src="images/products/product-image-300.png" alt="Product picture">
+                </picture>
+            </a>
+                <div class="description">
+                    <p>Izvod poslednjeg blog posta. Tekst koji je dugačak par rečenica.</p>
+                </div>
+                <a class="button button_read-more" href="single-blog-post.php">Opširnije</a>
         </article>
         <article class="blog-post">
-            <a href="single-blog-post.php"><h2>Blog Post 2</h2>
-            <img data-interchange="[http://placehold.it/274x274, (small)], [http://placehold.it/300x300, (medium)], [http://placehold.it/400x400, (large)]" alt="Product picture"></a>
-            <div class="description">
-                <p>Pretposlednji blog post - izvod. Tekst koji je dugačak par rečenica. Nalupan tekst za svrhe ilustracije.</p>
-            </div>
-            <a class="button button_read-more" href="single-blog-post.php">Opširnije</a>
+            <a href="single-blog-post.php">
+                <h2>Blog Post 2</h2>
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/products/product-image-800.png 2x, images/products/product-image-400.png" />
+                    <source media="(min-width: 641px)" srcset="images/products/product-image-300.png" />
+                    <img src="images/products/product-image-300.png" alt="Product picture">
+                </picture>
+            </a>
+                <div class="description">
+                    <p>Pretposlednji blog post - izvod. Tekst koji je dugačak par rečenica. Nalupan tekst za svrhe ilustracije.</p>
+                </div>
+                <a class="button button_read-more" href="single-blog-post.php">Opširnije</a>
         </article>
     </div>
     <div class="clearfix"></div>

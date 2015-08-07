@@ -35,7 +35,13 @@
     <h2 class="visible-for-small-only">Najpopularniji proizvodi</h2>
     <div class="row">
         <div class="top-products__image">
-            <img data-interchange="[http://placehold.it/220x220, (small)], [http://placehold.it/280x280, (medium)], [http://placehold.it/242x242, (large)]" alt="Product picture">
+            <a href="single-product.php">
+                <picture>
+                    <source media="(min-width: 1025px)" srcset="images/products/product-image-500.png 2x, images/products/product-image-250.png" />
+                    <source media="(min-width: 641px)" srcset="images/products/product-image-300.png" />
+                    <img src="images/products/product-image-250.png" alt="Product picture">
+                </picture>
+            </a>
         </div>
         <div class="top-products__details">
             <h3>Naziv proizvoda</h3>
@@ -55,7 +61,13 @@
         <h2>Naslov poslednjeg bloga</h2>
         <div class="row">
             <div class="blog-latest__image">
-                <img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/280x280, (medium)], [http://placehold.it/135x135, (large)]" alt="Latest product image">
+                <a href="single-product.php">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-600.png 2x, images/products/product-image-150.png" />
+                        <source media="(min-width: 641px)" srcset="images/products/product-image-300.png" />
+                        <img src="images/products/product-image-250.png" alt="Product picture">
+                    </picture>
+                </a>
             </div>
             <div class="description">
                 <p>Izvod poslednjeg blog posta. Tekst koji je dugačak par rečenica.</p>
@@ -67,7 +79,13 @@
         <h2>Drugi najsvežiji blog</h2>
         <div class="row">
             <div class="blog-latest__image">
-                <img data-interchange="[http://placehold.it/200x200, (small)], [http://placehold.it/280x280, (medium)], [http://placehold.it/135x135, (large)]" alt="Latest product image">
+                <a href="single-product.php">
+                    <picture>
+                        <source media="(min-width: 1025px)" srcset="images/products/product-image-600.png 2x, images/products/product-image-150.png" />
+                        <source media="(min-width: 641px)" srcset="images/products/product-image-300.png" />
+                        <img src="images/products/product-image-250.png" alt="Product picture">
+                    </picture>
+                </a>
             </div>
             <div class="description">
                 <p>Pretposlednji blog post - izvod. Tekst koji je dugačak par rečenica. Nalupan tekst za svrhe ilustracije.</p>

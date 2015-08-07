@@ -31,17 +31,6 @@ module.exports = function (grunt) {
                 src: 'css/*.css'
             }
         },
-        compress: {
-            main: {
-                options: {
-                    mode: 'gzip'
-                },
-                expand: true,
-                cwd: 'css/',
-                src: ['**/*.css'],
-                dest: 'dist/css/'
-            }
-        },
         watch: {
             grunt: {
                 options: {
@@ -58,15 +47,68 @@ module.exports = function (grunt) {
                 tasks: ['postcss']
             }
         },
+        responsive_images: {
+            dev: {
+                options: {
+                    engine: 'im',
+                    sizes: [{
+                            width: 1200,
+                            quality: 50
+                        },
+                        {
+                            width: 800,
+                            quality: 50
+                        },
+                        {
+                            width: 600,
+                            quality: 50
+                        },
+                        {
+                            width: 400,
+                            quality: 50
+                        },
+                        {
+                            width: 500,
+                            quality: 50
+                        },
+                        {
+                            width: 300,
+                            quality: 50
+                        },
+                        {
+                            width: 250,
+                            quality: 50
+                        },
+                        {
+                            width: 200,
+                            quality: 50
+                        },
+                        {
+                            width: 150,
+                            quality: 50
+                        },
+                        {
+                            width: 100,
+                            quality: 50
+                        }
+                    ]
+                },
+                files: [{
+                        expand: true,
+                        src: ['**/*.{jpg,gif,png}'],
+                        cwd: 'images_src/',
+                        dest: 'images/'
+                    }]
+            }
+        },
     });
 
 
     grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-postcss');
-    grunt.loadNpmTasks('grunt-contrib-compress');
-
-
+    grunt.loadNpmTasks('grunt-responsive-images');
+    
     grunt.registerTask('build', ['sass']);
     grunt.registerTask('default', ['build', 'watch']);
 }
